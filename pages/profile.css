@@ -13,5 +13,29 @@
 }
 
 #profile-posts-tabs {
-    margin-top: 5rem;
+    margin-top: 3rem;
+}
+
+.highlight-circle-border {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    /* Adjust slightly larger than image */
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    /* Adjust thickness and color as needed */
+    padding: 5px;
+    /* Creates spacing between the image and the border */
+}
+
+.highlight-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#bottom-spacer {
+    min-height: 42px;
 }
