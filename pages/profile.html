@@ -8,8 +8,8 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="/pages/profile.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/pages/profile.css">
     <title>Profile</title>
 </head>
 
@@ -17,14 +17,21 @@
 
     <div id="profile" class="d-flex flex-column justify-content-center">
 
-        <div id="profile-name-mobile" class="d-flex m-2 align-items-center text-center">
-            <div id="profile-name" class="text-center">j0nxthxn16</div>
-            <div id="profile-mobile-top-buttons" class="row d-flex justify-content-end">
-                <div class="col"><i class="bi bi-at"></i></div>
-                <div class="col"><i class="bi bi-plus"></i></div>
-                <div class="col"><i class="bi bi-list"></i></div>
+        <div id="profile-name-mobile" class="container mt-3">
+            <div class="row align-items-center">
+                <div class="col">
+                    <i class="bi bi-chevron-left fs-4"></i>
+                </div>
+                <div class="col text-center fw-bold fs-5">
+                    j0nxthxn16
+                </div>
+                <div class="col text-end">
+                    <i class="bi bi-send fs-4"></i>
+                    <i class="bi bi-three-dots fs-4 ms-2"></i>
+                </div>
             </div>
         </div>
+
 
         <div id="profile-information" class="container">
             <div class="row mt-4 text-center">
@@ -47,8 +54,8 @@
             </div>
 
             <div class="mt-4">
-                <div class="fw-bold ">jonathan | 18 | bavaria</div>
-                <div class="d-inline-flex px-2 rounded-4 my-1" id="instagram-threads-link">
+                <div class="fw-bold">jonathan | 18 | bavaria</div>
+                <div class="d-inline-flex px-2 rounded-4 my-1 p-1" id="instagram-threads-link">
                     @ j0nxthxn16
                 </div>
                 <div>
@@ -56,33 +63,88 @@
                 </div>
             </div>
 
-            div
+            <div id="profile-follow-message" class="container mt-5">
+                <div class="row">
+                    <button type="button" class="col btn me-1" id="profile-follow-account">Folgen</button>
+                    <button type="button" class="col btn ms-1" id="profile-message-account">Nachricht</button>
+                </div>
+            </div>
+
         </div>
+
+
 
         <div id="profile-hilights">
         </div>
 
         <div id="profile-posts">
+            <div id="profile-posts-tabs" class="container">
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <i class="bi bi-grid-3x3 fs-2"></i>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <i class="bi bi-file-play fs-2"></i>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <i class="bi bi-person-square fs-2"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div id="profile-posts-images" class="container-fluid p-0 mt-2">
+                <div class="row g-0">
+                    <div class="col">
+                        <img src="https://picsum.photos/700" alt="" class="img-fluid">
+                    </div>
+                    <div class="col">
+                        <img src="https://picsum.photos/701" alt="" class="img-fluid">
+                    </div>
+                    <div class="col">
+                        <img src="https://picsum.photos/702" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row g-0">
+                    <div class="col">
+                        <img src="https://picsum.photos/703" alt="" class="img-fluid">
+                    </div>
+                    <div class="col">
+                        <img src="https://picsum.photos/704" alt="" class="img-fluid">
+                    </div>
+                    <div class="col">
+                        <img src="https://picsum.photos/705" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row g-0">
+                    <div class="col">
+                        <img src="https://picsum.photos/706" alt="" class="img-fluid">
+                    </div>
+                    <div class="col">
+                        <img src="https://picsum.photos/707" alt="" class="img-fluid">
+                    </div>
+                    <div class="col">
+                        <img src="https://picsum.photos/708" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+            <div class=" fixed-bottom text-center" style="background-color: black;">
+                <div class="row m-2">
+                    <div class="col"><i class="bi bi-house bright"></i></div>
+                    <div class="col"><i class="bi bi-search"></i></div>
+                    <div class="col"><i class="bi bi-plus-circle"></i></div>
+                    <div class="col"><i class="bi bi-camera-reels"></i></div>
+                    <div class="col"><i class="bi bi-person-circle"></i></div>
+                </div>
+            </div>
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous"></script>
 
         </div>
-
-    </div>
-
-    <div class=" fixed-bottom text-center" style="background-color: black;">
-        <div class="row m-2">
-            <div class="col"><i class="bi bi-house bright"></i></div>
-            <div class="col"><i class="bi bi-search"></i></div>
-            <div class="col"><i class="bi bi-plus-circle"></i></div>
-            <div class="col"><i class="bi bi-camera-reels"></i></div>
-            <div class="col"><i class="bi bi-person-circle"></i></div>
-        </div>
-    </div>
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>

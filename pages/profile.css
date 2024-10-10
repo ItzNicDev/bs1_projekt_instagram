@@ -1,3 +1,17 @@
 #instagram-threads-link {
     background-color: #363636;
 }
+
+#profile-message-account {
+    color: white;
+    background: #363636;
+}
+
+#profile-follow-account {
+    color: white;
+    background-color: #0095F6;
+}
+
+#profile-posts-tabs {
+    margin-top: 5rem;
+}
