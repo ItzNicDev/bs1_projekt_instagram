@@ -21,10 +21,9 @@
     justify-content: center;
     align-items: center;
     width: 90px;
-    /* Adjust slightly larger than image */
     height: 90px;
     border-radius: 50%;
-    border: 2px solid gray;
+    border: 2px solid rgba(95, 95, 95, 0.625);
     /* Adjust thickness and color as needed */
     padding: 5px;
     /* Creates spacing between the image and the border */
@@ -38,4 +37,24 @@
 
 #bottom-spacer {
     min-height: 42px;
+}
+
+#profile-picture-large {
+    width: 150px;
+    height: 150px;
+}
+
+#profile-bio-large {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    .highlight-name {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    #instagram-threads-link {
+        font-size: 12px;
+    }
 }
