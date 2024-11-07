@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="foryou.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <script src="../../index.js"></script>
+    <title>Document</title>
+
+</head>
+
+<body class="text-white" style="background-color: black;">
+
+    <div class=" row w-100  d-none d-md-flex h-100">
+        <div class="col-2 sidebar-collapse  h-100 fixed-top" style="border-right: 0.5px solid rgb(55, 55, 55);">
+            <div class=" m-4">
+                <div class="d-none d-lg-block">
+                    <img class="logo" src="../img/logo.svg" alt="logo">
+                </div>
+                <div class="d-none d-md-block d-lg-none">
+                    <i class="bi bi-instagram"></i>
+                </div>
+            </div>
+            <div class="selectable m-2"><i class="bi bi-house ms-2 me-3 "></i>
+                <span class="d-none d-lg-inline-block">Startseite</span>
+            </div>
+            <div class=" selectable m-2"><i class="bi bi-search ms-2 me-3 "></i>
+                <span class="d-none d-lg-inline-block">Suche</span>
+            </div>
+            <div class=" selectable m-2"><i class="bi bi-compass ms-2 me-3 "></i>
+                <span class="d-none d-lg-inline-block">Entdecken</span>
+            </div>
+            <div class=" selectable m-2"><i class="bi bi-camera-reels ms-2 me-3 "></i>
+                <span class="d-none d-lg-inline-block">Reels</span>
+            </div>
+            <div class=" selectable m-2"><i class="bi bi-send ms-2 me-3 "></i>
+                <span class="d-none d-lg-inline-block">Nachrichten</span>
+            </div>
+            <div class=" selectable m-2"><i class="bi bi-heart ms-2 me-3 "></i>
+                <span class="d-none d-lg-inline-block">Benachrichtigungen</span>
+            </div>
+            <div class=" selectable m-2"><i class="bi bi-plus-circle ms-2 me-3 "></i>
+                <span class="d-none d-lg-inline-block">Erstellen</span>
+            </div>
+            <div class=" selectable m-2"><i class="bi bi-person-circle ms-2 me-3 "></i>
+                <span class="d-none d-lg-inline-block">Profile</span>
+            </div>
+        </div>
+
+        <div class="col-2" >
+        </div>
+
+        <div class="col-6">
+            <div style="height: 1000px;">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3"></div>
+                    <div class="col-9">
+                        <div class="mb-3 h-auto" style="width: 500px;">
+                            <div class="d-flex mt-4 fs-7 bottom-hr">
+                                <p class="m-2 text-white fw-bold">Für dich</p>
+                                <p class="m-2 text-secondary fw-bold">Gefolgt</p>
+                                <hr class="text-secondary">
+                            </div>
+                        </div>
+                        <div class="row m-1 " style=" min-width: 500px; max-width: 500px;">
+                            <div class="col-2">
+                                <div class="d-flex justify-content-center">
+                                    <div class="story-small bg-cover" 
+                                        style=" background: url('../../img/highlights-woman.jpg');">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="d-flex justify-content-center">
+                                    <div class="story-small bg-cover"
+                                        style=" background: url('https://i.pravatar.cc/106');">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="d-flex justify-content-center">
+                                    <div class="story-small bg-cover"
+                                        style=" background: url('https://i.pravatar.cc/107');">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="d-flex justify-content-center">
+                                    <div class="story-small bg-cover"
+                                        style=" background: url('https://i.pravatar.cc/108');">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row m-1 mt-2 " style="min-width: 500px; max-width: 500px;">
+                            <div class="col-2">
+                                <div class="d-flex justify-content-center fs-extra-small">
+                                    s0phixL0u
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="d-flex justify-content-center  fs-extra-small">
+                                    NexusTrail
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="d-flex justify-content-center  fs-extra-small">
+                                    VelvetEcho
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="d-flex justify-content-center fs-extra-small">
+                                    SoulCanvas
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- ------ -->
+                        <div class="p-5 mt-3 pt-0 h-auto" style="width: 500px;">
+                            <!-- Reel: -->
+                            <div>
+                                <!-- Reel-Header: -->
+                                <div class="row align-items-center p-2">
+                                    <div class="col-1">
+                                        <!-- <div class="circle-normal bg-cover"
+                                            style="background: url('../img/highlights-woman.jpg'); ">
+                                        </div> -->
+                                        <div onclick="openProfile()" class="story-extra-small bg-cover mb-2 click"
+                                        style=" background: url('../../img/highlights-woman.jpg'); "></div>
+
+                                    </div>
+                                    <div class="col-9">
+                                        <div onclick="openProfile()" class="ms-4 click">
+                                            s0phixL0u
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="float-end">
+                                            <i class="bi bi-three-dots float-end fs-small"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Content-Page-Reel:-->
+                                <div class="">
+                                    <div class="bg-cover w-100 reel-border"
+                                        style="height:450px; background: url('https://picsum.photos/1000');background-color: rgb(29, 29, 29);">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <i class="bi bi-heart p-1 hoverover fs-small"></i>
+                                            <i class="bi bi-chat p-1 hoverover fs-small"></i>
+                                            <i class="bi bi-send p-1 hoverover fs-small"></i>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="float-end p-1">
+                                                <i class="bi bi-bookmark hoverover fs-small"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-auto fw-bold fs-extra-small">
+                                            Gefällt 921 Mal
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-auto  fs-extra-small d-flex">
+                                            <p class="fw-bold">username</p>
+                                            <p class="ms-2">test desctiption</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div>
+                                <!-- Reel-Header: -->
+                                <div class="row align-items-center p-2">
+                                    <div class="col-1">
+                                        <div class="circle-normal bg-cover"
+                                            style="background: url('https://i.pravatar.cc/106');">
+                                        </div>
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="ms-3">
+                                            NexusTrail
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="float-end">
+                                            <i class="bi bi-three-dots float-end fs-small"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Content-Page-Reel:-->
+                                <div class="">
+                                    <div class="bg-cover w-100 reel-border"
+                                        style="height:450px;background: url('https://picsum.photos/1012'); background-color: rgb(29, 29, 29);">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <i class="bi bi-heart p-1 hoverover fs-small"></i>
+                                            <i class="bi bi-chat p-1 hoverover fs-small"></i>
+                                            <i class="bi bi-send p-1 hoverover fs-small"></i>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="float-end p-1">
+                                                <i class="bi bi-bookmark hoverover fs-small"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-auto fw-bold fs-extra-small">
+                                            Gefällt 921 Mal
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-auto  fs-extra-small d-flex">
+                                            <p class="fw-bold">NexusTrail</p>
+                                            <p class="ms-2">test desctiption</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div>
+                                <!-- Reel-Header: -->
+                                <div class="row align-items-center p-2">
+                                    <div class="col-1">
+                                        <div class="circle-normal bg-cover"
+                                            style="background: url('https://i.pravatar.cc/107'); ">
+                                        </div>
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="ms-3">
+                                            VelvetEcho
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="float-end">
+                                            <i class="bi bi-three-dots float-end fs-small"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Content-Page-Reel:-->
+                                <div class="">
+                                    <div class="bg-cover w-100 reel-border"
+                                        style="height:450px; background: url('https://picsum.photos/1013');  background-color: rgb(29, 29, 29);">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <i class="bi bi-heart p-1 hoverover fs-small"></i>
+                                            <i class="bi bi-chat p-1 hoverover fs-small"></i>
+                                            <i class="bi bi-send p-1 hoverover fs-small"></i>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="float-end p-1">
+                                                <i class="bi bi-bookmark hoverover fs-small"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-auto fw-bold fs-extra-small">
+                                            Gefällt 921 Mal
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-auto  fs-extra-small d-flex">
+                                            <p class="fw-bold">VelvetEcho</p>
+                                            <p class="ms-2">test desctiption</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div>
+                                <!-- Reel-Header: -->
+                                <div class="row align-items-center p-2">
+                                    <div class="col-1">
+                                        <div class="circle-normal bg-cover"
+                                            style="background: url('https://i.pravatar.cc/108');">
+                                        </div>
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="ms-3">
+                                            SoulCanvas
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="float-end">
+                                            <i class="bi bi-three-dots float-end fs-small"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Content-Page-Reel:-->
+                                <div class="">
+                                    <div class="bg-cover w-100 reel-border"
+                                        style="height:450px;  background: url('https://picsum.photos/1014');   background-color: rgb(29, 29, 29);">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <i class="bi bi-heart p-1 hoverover fs-small"></i>
+                                            <i class="bi bi-chat p-1 hoverover fs-small"></i>
+                                            <i class="bi bi-send p-1 hoverover fs-small"></i>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="float-end p-1">
+                                                <i class="bi bi-bookmark hoverover fs-small"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-auto fw-bold fs-extra-small">
+                                            Gefällt 921 Mal
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-auto  fs-extra-small d-flex">
+                                            <p class="fw-bold">SoulCanvas</p>
+                                            <p class="ms-2">test desctiption</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div>
+                                <!-- Reel-Header: -->
+                                <div class="row align-items-center p-2">
+                                    <div class="col-1">
+                                        <div class="circle-normal bg-cover"
+                                            style="background: url('https://i.pravatar.cc/109'); ">
+                                        </div>
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="ms-3">
+                                            UrbanMystic
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="float-end">
+                                            <i class="bi bi-three-dots  float-end fs-small"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Content-Page-Reel:-->
+                                <div class="">
+                                    <div class="bg-cover w-100 reel-border"
+                                        style="height:450px; background: url('https://picsum.photos/1015');  background-color: rgb(29, 29, 29);">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <i class="bi bi-heart p-1 hoverover fs-small"></i>
+                                            <i class="bi bi-chat p-1 hoverover fs-small"></i>
+                                            <i class="bi bi-send p-1 hoverover fs-small"></i>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="float-end p-1">
+                                                <i class="bi bi-bookmark hoverover fs-small"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-auto fw-bold fs-extra-small">
+                                            Gefällt 921 Mal
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-auto  fs-extra-small d-flex">
+                                            <p class="fw-bold">UrbanMystic</p>
+                                            <p class="ms-2">test desctiption</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4 ps-5 pt-4 d-none d-xl-block" style=" height: 400px;">
+            <div class="ms-5">
+                <div class="row align-items-center me-5 p-2">
+                    <div class="story-extra-small bg-cover"
+                        style=" background: url('../../img/highlights-woman.jpg'); "></div>
+                    <div class="col-5 fs-extra-small">
+                        s0phixL0u
+                    </div>
+                    <div class="col-1">
+                        <div class="float-end">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="float-end">
+                            <div class="text-primary fw-bold fs-extra-small">Wechseln</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center me-5 p-2">
+                    <div class="col-7 p-0 text-secondary fs-extra-small fw-bold">
+                        Für dich vorgeschlagen
+                    </div>
+                    <div class="col-5">
+                        <div class="fw-bold fs-extra-small">
+                            Alle ansehen
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center me-5 p-2">
+                    <div class="circle-normal bg-cover"
+                        style="background: url('https://i.pravatar.cc/101'); "></div>
+
+                    <div class="col-5 fs-extra-small">
+                        WanderFable
+                    </div>
+                    <div class="col-1 ">
+                        <div class="float-end">
+                        </div>
+                    </div>
+                    <div class="col-2 fs-extra-small">
+                        <div class="float-end">
+                            <div  class="text-primary fw-bold fs-extra-small">Folgen</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center me-5 p-2">
+                    <div class="circle-normal bg-cover"
+                        style="background: url('https://i.pravatar.cc/102'); "></div>
+
+                    <div class="col-5 fs-extra-small">
+                        PixelBloom
+                    </div>
+                    <div class="col-1">
+                        <div class="float-end">
+                        </div>
+                    </div>
+                    <div class="col-2 fs-extra-small">
+                        <div class="float-end">
+                            <div class="text-primary fw-bold fs-extra-small">Folgen</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center me-5 p-2">
+                    <div class="circle-normal bg-cover"
+                        style="background: url('https://i.pravatar.cc/103'); "></div>
+
+                    <div class="col-5 fs-extra-small">
+                        NimbusShift
+                    </div>
+                    <div class="col-1">
+                        <div class="float-end">
+                        </div>
+                    </div>
+                    <div class="col-2 fs-extra-small">
+                        <div class="float-end">
+                            <div  class="text-primary fw-bold fs-extra-small">Folgen</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="content" class=" d-md-none">
+        <div class="row m-0 p-2">
+            <div class="col-6" >
+                <div class="d-flex mt-2 mb-3">
+                    <div class="text-white fw-bold fs-1 ">Für dich</div>
+                    <i class="bi bi-chevron-down fs-6 ms-2 mt-2 hoverover"></i>
+                </div>
+            </div>
+            <div class="col-6" >
+                <div class="d-flex justify-content-end mt-2 me-3">
+                    <i class="bi bi-heart d-md-none me-3 hoverover fs-1"></i>
+                    <i class="bi bi-send d-md-none hoverover fs-1"></i>
+                </div>
+            </div>
+        </div>
+
+        <!--Stories:-->
+        <div class="m-0">
+            <div class="row m-1" >
+                <div class="col-3 ">
+
+                    <div class="d-flex justify-content-center">
+                        <div class="story bg-cover"
+                            style=" background: url('../../img/highlights-woman.jpg');"></div>
+
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="d-flex justify-content-center">
+
+                        <div class="story bg-cover"
+                            style=" background: url('https://i.pravatar.cc/106'); "></div>
+                    </div>
+
+                </div>
+                <div class="col-3">
+                    <div class="d-flex justify-content-center">
+
+                        <div class="story bg-cover"
+                            style=" background: url('https://i.pravatar.cc/107'); "></div>
+                    </div>
+
+                </div>
+                <div class="col-3">
+                    <div class="d-flex justify-content-center">
+
+                        <div class="story bg-cover"
+                            style=" background: url('https://i.pravatar.cc/108'); "></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="col-3 d-flex justify-content-center">Deine Story</div>
+                <div class="col-3 d-flex justify-content-center">ipsum</div>
+                <div class="col-3 d-flex justify-content-center">dolor</div>
+                <div class="col-3 d-flex justify-content-center">sit</div>
+            </div>
+        </div>
+
+        <div>
+            <div class="row p-3 align-items-center m-0 w-100 mt-4">
+                <div class="col-1 p-0">
+                    <div onclick="openProfile()" class="click bg-cover"
+                        style="height: 40px; width: 40px; background: url('../../img/highlights-woman.jpg'); border-radius: 100%;">
+                    </div>
+                </div>
+                <div class="col-7 p-0">
+                    <div class="row m-0 justify-content-md-center">
+                        <div onclick="openProfile()" class="col col-lg-2 fs-6 fw-bold click">
+                            s0phixL0u
+                        </div>
+                        <div class="col-md-auto" style="font-size: 13px;">
+                            Für dich vorgeschlagen
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 p-0 float-end" style="background-color: transparent;">
+                    <i class="bi bi-three-dots fs-3 float-end"></i>
+                </div>
+
+            </div>
+
+            <!--Content-Page-Reel:-->
+            <div class="">
+                <div class="bg-cover"
+                    style="height: 800px; max-height: 500px; background: url('https://picsum.photos/1000');  background-color: rgb(29, 29, 29);">
+                </div> <!-- Hier fehlt das schließende div -->
+
+                <!--Content-Page-User-Action:-->
+                <div class="row m-0 p-2 ps-1 pe-0" >
+
+                    <!--Content-Page-Likes:-->
+                    <div class="col-2" >
+                        <div class="row align-items-center">
+                            <div class="col-5">
+                                <i class="bi bi-heart hoverover fs-1"></i>
+                            </div>
+                            <div class="col-1">
+                                <div class="fs-5">1.345</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Content-Page-Comments:-->
+                    <div class="col-2 ms-3 p-0" >
+                        <div class="row m-0 align-items-center">
+                            <div class="col-5">
+                                <i class="bi bi-chat hoverover fs-1"></i>
+                            </div>
+                            <div class="col-1">
+                                <div class="fs-5">135</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Content-Page-Shares:-->
+                    <div class="col-2  p-0" >
+                        <div class="row m-0 align-items-center">
+                            <div class="col-5">
+                                <i class="bi bi-send hoverover fs-1"></i>
+                            </div>
+                            <div class="col-1">
+                                <div class="fs-5">8</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Content-Page-Save:-->
+                    <div class="col m-0 pe-2" >
+                        <div class="align-items-center ">
+                            <i class="bi bi-bookmark fs-1 hoverover float-end"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Content-Page-Desctiption:-->
+                <div class="row m-0 p-0 ps-2 pe-2">
+                    <div class="col fw-bold" >
+                        <span class="fs-5 me-2 "> s0phixL0u
+                        </span>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui natus quidem corrupti voluptas
+                        quam
+                        consequuntur...<span class="text-secondary ms-2">mehr</span>
+                    </div>
+                </div>
+
+                <!--Footer:-->
+                <div class=" fixed-bottom text-center d-md-none mt-3" style="background-color: black;">
+                    <div class="row m-2 ">
+                        <div class="col">
+                            <i class="bi bi-house bright fs-1 hoverover"></i>
+                        </div>
+                        <div class="col"><i class="bi bi-search fs-1 hoverover"></i></div>
+                        <div class="col"><i class="bi bi-plus-circle fs-1 hoverover"></i></div>
+                        <div class="col"><i class="bi bi-camera-reels fs-1 hoverover"></i></div>
+                        <div class="col"><i class="bi bi-person-circle fs-1 hoverover"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="row p-3 align-items-center m-0 w-100 mt-4">
+                <div class="col-1 p-0">
+                    <div class="bg-cover"
+                        style="height: 40px; width: 40px; background: url('https://i.pravatar.cc/106'); border-radius: 100%;">
+                    </div>
+                </div>
+                <div class="col-7 p-0">
+                    <div class="row m-0 justify-content-md-center">
+                        <div class="col col-lg-2 fs-6 fw-bold">
+                            NexusTrail
+                            
+                        </div>
+                        <div class="col-md-auto fs-medium">
+                            Für dich vorgeschlagen
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 p-0 float-end" >
+                    <i class="bi bi-three-dots fs-3 float-end"></i>
+                </div>
+            </div>
+
+            <!--Content-Page-Reel:-->
+            <div class="">
+                <div class="bg-cover"
+                    style="height: 800px; max-height: 500px; background: url('https://picsum.photos/1012');  background-color: rgb(29, 29, 29);">
+                </div> <!-- Hier fehlt das schließende div -->
+
+                <!--Content-Page-User-Action:-->
+                <div class="row m-0 p-2 ps-1 pe-0" >
+
+                    <!--Content-Page-Likes:-->
+                    <div class="col-2" >
+                        <div class="row align-items-center">
+                            <div class="col-5">
+                                <i class="bi bi-heart hoverover fs-1"></i>
+                            </div>
+                            <div class="col-1">
+                                <div class="fs-5">1.815</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Content-Page-Comments:-->
+                    <div class="col-2 ms-3 p-0" >
+                        <div class="row m-0 align-items-center">
+                            <div class="col-5">
+                                <i class="bi bi-chat hoverover fs-1"></i>
+                            </div>
+                            <div class="col-1">
+                                <div class="fs-5">215</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Content-Page-Shares:-->
+                    <div class="col-2  p-0" >
+                        <div class="row m-0 align-items-center">
+                            <div class="col-5">
+                                <i class="bi bi-send hoverover fs-1"></i>
+                            </div>
+                            <div class="col-1">
+                                <div class="fs-5">53</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Content-Page-Save:-->
+                    <div class="col m-0 pe-2" >
+                        <div class="align-items-center ">
+                            <i class="bi bi-bookmark fs-1 hoverover float-end"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Content-Page-Desctiption:-->
+                <div class="row m-0 p-0 ps-2 pe-2">
+                    <div class="col fw-bold" >
+                        <span class="fs-5 me-2 ">NexusTrail</span>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui natus quidem corrupti voluptas
+                        quam
+                        consequuntur...<span class="text-secondary ms-2">mehr</span>
+                    </div>
+                </div>
+
+                <!--Footer:-->
+                <div class=" fixed-bottom text-center d-md-none mt-3" style="background-color: black;">
+                    <div class="row m-2 ">
+                        <div class="col">
+                            <i class="bi bi-house bright fs-1 hoverover"></i>
+                        </div>
+                        <div class="col"><i class="bi bi-search fs-1 hoverover"></i></div>
+                        <div class="col"><i class="bi bi-plus-circle fs-1 hoverover"></i></div>
+                        <div class="col"><i class="bi bi-camera-reels fs-1 hoverover"></i></div>
+                        <div class="col"><i class="bi bi-person-circle fs-1 hoverover"></i></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div>
+            <div class="row p-3 align-items-center m-0 w-100 mt-4">
+                <div class="col-1 p-0">
+                    <div class="bg-cover"
+                        style="height: 40px; width: 40px; background: url('https://i.pravatar.cc/107');  border-radius: 100%;">
+                    </div>
+                </div>
+                <div class="col-7 p-0">
+                    <div class="row m-0 justify-content-md-center">
+                        <div class="col col-lg-2 fs-6 fw-bold">
+                            VelvetEcho
+                            
+                        </div>
+                        <div class="col-md-auto fs-medium" >
+                            Für dich vorgeschlagen
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 p-0 float-end">
+                    <i class="bi bi-three-dots fs-3 float-end"></i>
+                </div>
+            </div>
+
+            <!--Content-Page-Reel:-->
+            <div class="">
+                <div class="bg-cover"
+                    style="height: 800px; max-height: 500px; background: url('https://picsum.photos/1013');  background-color: rgb(29, 29, 29);">
+                </div> <!-- Hier fehlt das schließende div -->
+
+                <!--Content-Page-User-Action:-->
+                <div class="row m-0 p-2 ps-1 pe-0">
+
+                    <!--Content-Page-Likes:-->
+                    <div class="col-2">
+                        <div class="row align-items-center">
+                            <div class="col-5">
+                                <i class="bi bi-heart hoverover fs-1"></i>
+                            </div>
+                            <div class="col-1">
+                                <div class="fs-5">745</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Content-Page-Comments:-->
+                    <div class="col-2 ms-3 p-0" >
+                        <div class="row m-0 align-items-center">
+                            <div class="col-5">
+                                <i class="bi bi-chat hoverover fs-1"></i>
+                            </div>
+                            <div class="col-1">
+                                <div class="fs-5">95</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Content-Page-Shares:-->
+                    <div class="col-2  p-0" >
+                        <div class="row m-0 align-items-center">
+                            <div class="col-5">
+                                <i class="bi bi-send hoverover fs-1"></i>
+                            </div>
+                            <div class="col-1">
+                                <div class="fs-5">15</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Content-Page-Save:-->
+                    <div class="col m-0 pe-2">
+                        <div class="align-items-center ">
+                            <i class="bi bi-bookmark fs-1 hoverover float-end"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Content-Page-Desctiption:-->
+                <div class="row m-0 p-0 ps-2 pe-2">
+                    <div class="col fw-bold" >
+                        <span class="fs-5 me-2 ">VelvetEcho</span>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui natus quidem corrupti voluptas
+                        quam
+                        consequuntur...<span class="text-secondary ms-2">mehr</span>
+                    </div>
+                </div>
+
+                <!--Footer:-->
+                <div class=" fixed-bottom text-center d-md-non mt-3" style="background-color: black;">
+                    <div class="row m-2 ">
+                        <div class="col">
+                            <i class="bi bi-house bright fs-1 hoverover"></i>
+                        </div>
+                        <div class="col"><i class="bi bi-search fs-1 hoverover"></i></div>
+                        <div class="col"><i class="bi bi-plus-circle fs-1 hoverover"></i></div>
+                        <div class="col"><i class="bi bi-camera-reels fs-1 hoverover"></i></div>
+                        <div class="col"><i class="bi bi-person-circle fs-1 hoverover"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="row p-3 align-items-center m-0 w-100 mt-4">
+                <div class="col-1 p-0">
+                    <div class="bg-cover"
+                        style="height: 40px; width: 40px; background: url('https://i.pravatar.cc/108');  border-radius: 100%;">
+                    </div>
+                </div>
+                <div class="col-7 p-0">
+                    <div class="row m-0 justify-content-md-center">
+                        <div class="col col-lg-2 fs-6 fw-bold">
+                            SoulCanvas
+                            
+                        </div>
+                        <div class="col-md-auto fs-medium">
+                            Für dich vorgeschlagen
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 p-0 float-end">
+                    <i class="bi bi-three-dots fs-3 float-end"></i>
+                </div>
+            </div>
+
+            <!--Content-Page-Reel:-->
+            <div class="">
+                <div class="bg-cover"
+                    style="height: 800px; max-height: 500px; background: url('https://picsum.photos/1014'); background-color: rgb(29, 29, 29);">
+                </div> <!-- Hier fehlt das schließende div -->
+
+                <!--Content-Page-User-Action:-->
+                <div class="row m-0 p-2 ps-1 pe-0">
+
+                    <!--Content-Page-Likes:-->
+                    <div class="col-2" >
+                        <div class="row align-items-center">
+                            <div class="col-5">
+                                <i class="bi bi-heart hoverover fs-1"></i>
+                            </div>
+                            <div class="col-1">
+                                <div class="fs-5">144</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Content-Page-Comments:-->
+                    <div class="col-2 ms-3 p-0" >
+                        <div class="row m-0 align-items-center">
+                            <div class="col-5">
+                                <i class="bi bi-chat hoverover fs-1"></i>
+                            </div>
+                            <div class="col-1">
+                                <div class="fs-5">11</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Content-Page-Shares:-->
+                    <div class="col-2  p-0" >
+                        <div class="row m-0 align-items-center">
+                            <div class="col-5">
+                                <i class="bi bi-send hoverover fs-1"></i>
+                            </div>
+                            <div class="col-1">
+                                <div class="fs-5">17</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Content-Page-Save:-->
+                    <div class="col m-0 pe-2" >
+                        <div class="align-items-center ">
+                            <i class="bi bi-bookmark fs-1 hoverover float-end"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Content-Page-Desctiption:-->
+                <div class="row m-0 p-0 ps-2 pe-2">
+                    <div class="col fw-bold">
+                        <span class="fs-5 me-2 ">SoulCanvas</span>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui natus quidem corrupti voluptas
+                        quam
+                        consequuntur...<span class="text-secondary ms-2">mehr</span>
+                    </div>
+                </div>
+
+                <!--Footer:-->
+                <div class=" fixed-bottom text-center d-md-none mt-3" style="background-color: black;">
+                    <div class="row m-2 ">
+                        <div class="col">
+                            <i class="bi bi-house bright fs-1 hoverover"></i>
+                        </div>
+                        <div class="col"><i class="bi bi-search fs-1 hoverover"></i></div>
+                        <div class="col"><i class="bi bi-plus-circle fs-1 hoverover"></i></div>
+                        <div class="col"><i class="bi bi-camera-reels fs-1 hoverover"></i></div>
+                        <div class="col"><i class="bi bi-person-circle fs-1 hoverover"></i></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div>
+            <div class="row p-3 align-items-center m-0 w-100 mt-4">
+                <div class="col-1 p-0">
+                    <div class="bg-cover"
+                        style="height: 40px; width: 40px; background: url('https://i.pravatar.cc/109');  border-radius: 100%;">
+                    </div>
+                </div>
+                <div class="col-7 p-0">
+                    <div class="row m-0 justify-content-md-center">
+                        <div class="col col-lg-2 fs-6 fw-bold">
+                            UrbanMystic
+                            
+                        </div>
+                        <div class="col-md-auto fs-medium">
+                            Für dich vorgeschlagen
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 p-0 float-end" style="background-color: transparent;">
+                    <i class="bi bi-three-dots fs-3 float-end"></i>
+                </div>
+
+            </div>
+
+            <!--Content-Page-Reel:-->
+            <div class="">
+                <div class="bg-cover"
+                    style="height: 800px; max-height: 500px; background: url('https://picsum.photos/1015'); background-color: rgb(29, 29, 29);">
+                </div> <!-- Hier fehlt das schließende div -->
+
+                <!--Content-Page-User-Action:-->
+                <div class="row m-0 p-2 ps-1 pe-0" style=" background-color: transparent;">
+
+                    <!--Content-Page-Likes:-->
+                    <div class="col-2" >
+                        <div class="row align-items-center">
+                            <div class="col-5">
+                                <i class="bi bi-heart hoverover fs-1"></i>
+                            </div>
+                            <div class="col-1">
+                                <div class="fs-5">1.141</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Content-Page-Comments:-->
+                    <div class="col-2 ms-3 p-0" >
+                        <div class="row m-0 align-items-center">
+                            <div class="col-5">
+                                <i class="bi bi-chat hoverover fs-1"></i>
+                            </div>
+                            <div class="col-1">
+                                <div class="fs-5">417</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Content-Page-Shares:-->
+                    <div class="col-2  p-0" >
+                        <div class="row m-0 align-items-center">
+                            <div class="col-5">
+                                <i class="bi bi-send hoverover fs-1"></i>
+                            </div>
+                            <div class="col-1">
+                                <div class="fs-5">13</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Content-Page-Save:-->
+                    <div class="col m-0 pe-2" >
+                        <div class="align-items-center ">
+                            <i class="bi bi-bookmark fs-1 hoverover float-end"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Content-Page-Desctiption:-->
+                <div class="row m-0 p-0 ps-2 pe-2 mb-5">
+                    <div class="col fw-bold" >
+                        <span class="fs-5 me-2 ">UrbanMystic</span>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui natus quidem corrupti voluptas
+                        quam
+                        consequuntur...<span class="text-secondary ms-2">mehr</span>
+                    </div>
+                </div>
+                <br>
+
+                <!--Footer:-->
+                <div class=" fixed-bottom text-center d-md-none " style="background-color: black;">
+                    <div class="row m-2 ">
+                        <div class="col"><i class="bi bi-house bright fs-1 hoverover"></i></div>
+                        <div class="col"><i class="bi bi-search fs-1 hoverover"></i></div>
+                        <div class="col"><i class="bi bi-plus-circle fs-1 hoverover"></i></div>
+                        <div class="col"><i class="bi bi-camera-reels fs-1 hoverover"></i></div>
+                        <div class="col"><i class="bi bi-person-circle fs-1 hoverover"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

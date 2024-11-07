@@ -1,3 +1,3 @@
 function openProfile() {
-    window.open("pages/profile.html");
+    window.open("/pages/profile/index.html","_self");
 }
