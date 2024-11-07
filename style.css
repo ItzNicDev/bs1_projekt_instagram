@@ -26,11 +26,11 @@ i {
 @media only screen and (min-width: 992px) {
   .sidebar-collapse {
     min-width: 250px;
-    background-color:   transparent;
-    
+    background-color: transparent;
+
   }
 }
- 
+
 
 
 
@@ -79,3 +79,4 @@ i {
   overflow: hidden;
   cursor: pointer;
 }
+
