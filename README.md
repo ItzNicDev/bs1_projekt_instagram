@@ -1,5 +1,7 @@
 # Instagram Klon
 
+> Wichtig zu beachten ist, dass wir uns auf die Mobile Version des Handys geeinigt haben, da die Tatsächliche responsive view der Web App extrem schlecht ist.
+
 ## Startseite
 `Developer: Niclas`
 Ich habe mich um die Umsetzung der Startseite (Reels) gekümmert. Für diese habe ich, die von Jonathan erfunde Person Sophie Lou als auch 4 weitere erfunde Benutzer verwendet um ein  möglichst authentisches Instagramm-Erlebnis zu erreichen. 
@@ -14,9 +16,6 @@ Auch haben ich den Website Title enstprechend mit dem Instagram favicon und dem 
 
 ## Profil
 `Developer: Jonathan`
-
-> Wichtig zu beachten ist, dass wir uns auf die Mobile Version des Handys geeinigt haben, da die Tatsächliche responsive view der Web App extrem schlecht ist.
-
 
 Ich habe mich um die Umsetzung der Profilsiete gekümmert, hierfür habe ich mir eine Person Namens Sophie Lou ausgedacht. Es wurde darauf geachtet, dass die Beiträge Anzahl mit den Bilder übereinstimmt. Auch haben ich mit absicht Fotografin in die Biographie geschrieben, was die sehr unterschiedlichen Bilder erklärt.
 
