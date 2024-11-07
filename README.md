@@ -15,12 +15,10 @@ Außerdem kann man mit einem Klick auf das Profilbild oder Username von Sophie L
 Auch haben ich den Website Title enstprechend mit dem Instagram favicon und dem richtigen Titel versehen. ![foryou title text and favicon](/img/screenshots/foryou-title.png)
 
 #### Desktop
-![foryou desktop]()
-
 <img src="/img/screenshots/foryou-desktop.png" style="width: 568px">
 
 #### Mobile
-![foryou mobile](/img/screenshots/foryou-mobile.png)
+<img src="/img/screenshots/foryou-mobile.png" style="width: 568px">
 
 ---
 
