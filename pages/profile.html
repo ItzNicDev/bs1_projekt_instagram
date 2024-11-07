@@ -9,18 +9,18 @@
 
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/pages/profile.css">
     <link rel="shortcut icon" href="/img/Instagram_icon.png.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/pages/profile.css">
     <title>sophie lou | 21 | germany</title>
 </head>
 
-<body style="background-color: black; color: white; min-width: 576px;">
+<body style="background-color: black; color: white; min-width: 576px !important;">
 
-    <div id="profile" class="d-flex flex-column justify-content-center">
+    <div id="profile" class="d-flex flex-column justify-content-center w-md-50">
 
         <!-- Top Bar -->
 
-        <div id="profile-name-mobile" class="container mt-3">
+        <div id="profile-name-mobile" class="container mt-3 d-md-none">
             <div class="row align-items-center">
                 <div class="col">
                     <i class="bi bi-chevron-left fs-4"></i>
@@ -36,8 +36,63 @@
         </div>
 
 
+        <div id="profile-information-large" class="d-none d-md-block mt-5">
 
-        <div id="profile-information" class="container">
+            <div class="d-flex align-items-center justify-content-center">
+                <div id="profile-information-large-profile-picture" class="me-md-5">
+                    <div>
+                        <img src="/img/highlights-woman.jpg" alt="profile picture" id="profile-picture-large"
+                            class="rounded-circle">
+                    </div>
+                </div>
+                <div id="profile-information-large-bio">
+                    <div id="name-follow-message-row" class="d-flex align-items-center">
+                        <div class="me-md-5">
+                            s0phixL0u
+                        </div>
+
+                        <button type="button" class="btn me-1 d-md-none" id="profile-follow-account">Folgen</button>
+                        <button type="button" class="btn ms-1 d-md-none" id="profile-message-account">Nachricht</button>
+
+                        <button type="button" class="btn me-1 d-none d-md-block"
+                            id="profile-follow-account-desktop">Folgen</button>
+                        <button type="button" class="btn ms-1 d-none d-md-block me-3"
+                            id="profile-message-account-desktop">Nachricht
+                            senden</button>
+                        <i class="bi bi-three-dots fs-4 ms-2"></i>
+                    </div>
+
+                    <div id="posts-follower-follows-row" class="d-flex justify-content-between mt-4">
+                        <div class="d-flex">
+                            <div class="fw-bold me-2">9</div>
+                            <div>Beiträge</div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="fw-bold me-2">999</div>
+                            <div>Follower</div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="fw-bold me-2">999</div>
+                            <div>Gefolgt</div>
+                        </div>
+                    </div>
+
+                    <div class="mt-4" id="profile-bio-large">
+                        <div class="fw-bold">sophie lou | 21 | germany</div>
+                        <div class="d-inline-flex px-2 rounded-4 my-3 p-1" id="instagram-threads-link">
+                            @ s0phixL0u
+                        </div>
+                        <div>
+                            Fotografin und Bloggerin
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="profile-information-mobile" class="container d-md-none">
 
             <!-- Profilbild & Follower -->
 
@@ -84,19 +139,19 @@
         <!-- Highlights -->
 
         <div id="profile-hilights" class="d-flex justify-content-start mt-5 container">
-            <div>
+            <div class="profile-single-hilight">
                 <div class="highlight-circle-border">
                     <img src="/img/highlights-woman.jpg" alt="" class="highlight-image rounded-circle">
                 </div>
                 <div class="highlight-name text-center">Me</div>
             </div>
-            <div class="mx-3">
+            <div class="mx-3 mx-md-5 profile-single-hilight">
                 <div class="highlight-circle-border">
                     <img src="/img/highlights-dog.webp" alt="" class="highlight-image rounded-circle">
                 </div>
-                <div class="highlight-name text-center">Dog 🐶</div>
+                <div class="highlight-name text-center fs-md-5">Dog 🐶</div>
             </div>
-            <div>
+            <div class="profile-single-hilight">
                 <div class="highlight-circle-border">
                     <img src="/img/highlights-tennis.jpg" alt="" class="highlight-image rounded-circle">
                 </div>
@@ -106,7 +161,7 @@
 
 
         <div id="profile-posts">
-            <div id="profile-posts-tabs" class="container">
+            <div id="profile-posts-tabs" class="container d-md-none" style="max-width: 968px;">
                 <div class="row">
                     <div class="col d-flex justify-content-center">
                         <i class="bi bi-grid-3x3 fs-2"></i>
@@ -120,9 +175,20 @@
                 </div>
             </div>
 
-            <div id="profile-posts-images" class="container-fluid p-0 mt-2">
-                <div class="row g-0">
-                    <div class="col">
+            <div id="desktop-post-tabs" class="d-none d-md-flex mt-5">
+                <div id="desktop-post-icons m-0">
+
+                </div>
+            </div>
+
+            <div id="profile-posts-images" class="container-md p-0 mt-2" style="
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            flex-direction: column;
+            ">
+                <div class="row g-0 g-md-2 posts-image-row" style="max-width: 968px;">
+                    <div class="col post-max-width">
                         <img src="https://picsum.photos/700" alt="" class="img-fluid">
                     </div>
                     <div class="col">
@@ -132,8 +198,8 @@
                         <img src="https://picsum.photos/702" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="row g-0">
-                    <div class="col">
+                <div class="row g-0 g-md-2 posts-image-row" style="max-width: 968px;">
+                    <div class="col post-max-width">
                         <img src="https://picsum.photos/703" alt="" class="img-fluid">
                     </div>
                     <div class="col">
@@ -143,8 +209,8 @@
                         <img src="https://picsum.photos/705" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="row g-0">
-                    <div class="col">
+                <div class="row g-0 g-md-2 posts-image-row" style="max-width: 968px;">
+                    <div class="col post-max-width">
                         <img src="https://picsum.photos/706" alt="" class="img-fluid">
                     </div>
                     <div class="col">

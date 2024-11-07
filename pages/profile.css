@@ -16,15 +16,31 @@
     margin-top: 3rem;
 }
 
+#profile-follow-account-desktop {
+    color: white;
+    background-color: #363636;
+    padding: 6px 25px;
+}
+
+#profile-message-account-desktop {
+    color: white;
+    background: #363636;
+    padding: 6px 25px;
+}
+
+#posts-follower-follows-row {
+    width: 90%;
+}
+
+
 .highlight-circle-border {
     display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 90px;
-    /* Adjust slightly larger than image */
     height: 90px;
     border-radius: 50%;
-    border: 2px solid gray;
+    border: 2px solid rgba(95, 95, 95, 0.625);
     /* Adjust thickness and color as needed */
     padding: 5px;
     /* Creates spacing between the image and the border */
@@ -38,4 +54,59 @@
 
 #bottom-spacer {
     min-height: 42px;
+}
+
+#profile-picture-large {
+    width: 210px;
+    height: 210px;
+}
+
+#profile-bio-large {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    .highlight-name {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    #instagram-threads-link {
+        font-size: 12px;
+    }
+
+    .posts-image-row {
+        margin-bottom: 0.5rem;
+    }
+
+    .post-max-width {
+        max-width: 968px;
+    }
+
+    #desktop-post-tabs {
+        border-top: 1px solid rgba(128, 128, 128, 0.452);
+        width: 728px;
+        /* max-width: 968px; */
+        margin: auto;
+    }
+
+    #profile-hilights {
+        width: 728px;
+    }
+
+    .profile-single-hilight:first {
+        margin-right: 0px;
+    }
+}
+
+@media (min-width: 998px) {
+    #desktop-post-tabs {
+        width: 968px;
+        /* max-width: 968px; */
+        margin: auto;
+    }
+
+    #profile-hilights {
+        width: 968px;
+    }
 }
