@@ -2,7 +2,15 @@
 
 ## Startseite
 `Developer: Niclas`
+Ich habe mich um die Umsetzung der Startseite (Reels) gekümmert. Für diese habe ich, die von Jonathan erfunde Person Sophie Lou als auch 4 weitere erfunde Benutzer verwendet um ein  möglichst authentisches Instagramm-Erlebnis zu erreichen. 
 
+Für die 4 anderen User verwende ich eine kostenlose API (https://i.pravatar.cc) um bei jedem Ladevorgang zufällige Benutzerfotos zu erhalten. 
+
+Ebenso die Beiträge, welche bei jedem Ladevorang zufällig sind, werden mittels API (https://picsum.photos) geladen und angezeigt.
+
+Außerdem kann man mit einem Klick auf das Profilbild oder Username von Sophie Lou auf das Profil von ihr kommen.
+
+Auch haben ich den Website Title enstprechend mit dem Instagram favicon und dem richtigen Titel versehen.
 
 ## Profil
 `Developer: Jonathan`
@@ -14,7 +22,7 @@ Ich habe mich um die Umsetzung der Profilsiete gekümmert, hierfür habe ich mir
 
 Die Bilder ändern sich bei jedem reload, da die Bilder von Kostenfreiben Bilder API https://picsum.photos/ kommen.
 
-Ach haben wir ihr ein Threads Profil Link geben dieser ist die Graue Box in der Biographie. Diese Account verknüfung ist aber nicht auf jedem Instagram Bild zu finden.
+Auch haben wir ihr ein Threads Profil Link geben dieser ist die Graue Box in der Biographie. Diese Account verknüfung ist aber nicht auf jedem Instagram Bild zu finden.
 
 Auch haben ich den Website Title enstprechend mit dem Instagram favicon und dem richtigen Titel versehen. ![profile title text and favicon](/img/screenshots/profile-title.png)
 
