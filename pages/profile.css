@@ -16,6 +16,23 @@
     margin-top: 3rem;
 }
 
+#profile-follow-account-desktop {
+    color: white;
+    background-color: #363636;
+    padding: 6px 25px;
+}
+
+#profile-message-account-desktop {
+    color: white;
+    background: #363636;
+    padding: 6px 25px;
+}
+
+#posts-follower-follows-row {
+    width: 90%;
+}
+
+
 .highlight-circle-border {
     display: inline-flex;
     justify-content: center;
@@ -40,8 +57,8 @@
 }
 
 #profile-picture-large {
-    width: 150px;
-    height: 150px;
+    width: 210px;
+    height: 210px;
 }
 
 #profile-bio-large {
@@ -60,5 +77,36 @@
 
     .posts-image-row {
         margin-bottom: 0.5rem;
+    }
+
+    .post-max-width {
+        max-width: 968px;
+    }
+
+    #desktop-post-tabs {
+        border-top: 1px solid rgba(128, 128, 128, 0.452);
+        width: 728px;
+        /* max-width: 968px; */
+        margin: auto;
+    }
+
+    #profile-hilights {
+        width: 728px;
+    }
+
+    .profile-single-hilight:first {
+        margin-right: 0px;
+    }
+}
+
+@media (min-width: 998px) {
+    #desktop-post-tabs {
+        width: 968px;
+        /* max-width: 968px; */
+        margin: auto;
+    }
+
+    #profile-hilights {
+        width: 968px;
     }
 }
