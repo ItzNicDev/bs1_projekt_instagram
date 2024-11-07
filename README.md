@@ -12,7 +12,15 @@ Ebenso die Beiträge, welche bei jedem Ladevorang zufällig sind, werden mittels
 
 Außerdem kann man mit einem Klick auf das Profilbild oder Username von Sophie Lou auf das Profil von ihr kommen.
 
-Auch haben ich den Website Title enstprechend mit dem Instagram favicon und dem richtigen Titel versehen.
+Auch haben ich den Website Title enstprechend mit dem Instagram favicon und dem richtigen Titel versehen. ![foryou title text and favicon](/img/screenshots/foryou-title.png)
+
+#### Desktop
+![foryou desktop](/img/screenshots/foryou-desktop.png)
+
+#### Mobile
+![foryou mobile](/img/screenshots/foryou-mobile.png)
+
+---
 
 ## Profil
 `Developer: Jonathan`
