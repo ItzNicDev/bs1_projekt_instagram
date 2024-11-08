@@ -32,6 +32,38 @@
     width: 90%;
 }
 
+#top-bar-desktop {
+    width: 968px;
+}
+
+#desktop-top-bar-line {
+    border: 1px solid rgba(128, 128, 128, 0.452);
+    width: 100%;
+}
+
+#desktop-posts-tab {
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+#desktop-top-bar-logo {
+    width: 105px;
+}
+
+#desktop-footer {
+    width: 968px;
+}
+
+.desktop-posts-tab-item {
+    padding-top: 10px;
+    margin: 0px 20px;
+}
+
+.desktop-footer-items>div {
+    font-size: 12px;
+    color: #cecece;
+    margin: 5px 10px;
+    cursor: pointer;
+}
 
 .highlight-circle-border {
     display: inline-flex;
@@ -53,7 +85,7 @@
 }
 
 #bottom-spacer {
-    min-height: 42px;
+    min-height: 63px;
 }
 
 #profile-picture-large {
