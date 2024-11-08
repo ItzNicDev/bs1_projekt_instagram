@@ -4,6 +4,7 @@
 
 ## Startseite
 `Developer: Niclas`
+
 Ich habe mich um die Umsetzung der Startseite (Reels) gekümmert. Für diese habe ich, die von Jonathan erfunde Person Sophie Lou, als auch 4 weitere erfunde Benutzer verwendet, um ein möglichst authentisches Instagram-Erlebnis darzustellen. 
 
 Für die 4 anderen User verwende ich eine kostenlose API (https://i.pravatar.cc), um bei jedem Ladevorgang zufällige Benutzerfotos zu erhalten. 
