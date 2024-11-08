@@ -37,7 +37,7 @@ Auch haben wir ihr ein Threads Profil Link geben dieser ist die Graue Box in der
 Auch haben ich den Website Title enstprechend mit dem Instagram favicon und dem richtigen Titel versehen. ![profile title text and favicon](/img/screenshots/profile-title.png)
 
 #### Desktop
-![profile desktop](/img/screenshots/profil-desktop.png)
+![profile desktop](/img/screenshots/profile-desktop.PNG)
 
 #### Mobile
 ![profile mobile](/img/screenshots/profil-mobile.png)
